@@ -1,0 +1,16 @@
+@import 'normalize.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: #fe2c55;
+    --black: #000;
+    --text-color: #333;
+    --white: #fff;
+    // Default layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
+    --default-layout-horizontal-spacer: 24px;
+}
