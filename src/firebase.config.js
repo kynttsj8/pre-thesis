@@ -2,14 +2,17 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCRzayFVgygq5FkM5OZtb03qLyYSlqDxMY",
-    authDomain: "onlile-job-portal.firebaseapp.com",
-    projectId: "onlile-job-portal",
-    storageBucket: "onlile-job-portal.appspot.com",
-    messagingSenderId: "664613872402",
-    appId: "1:664613872402:web:ec0e7cea8ef4f3743a09cb"
+  apiKey: "AIzaSyCBtXr5wDYxaTP3q4IKGMy1-aewYlpclPg",
+  authDomain: "onlile-job-portal-941fb.firebaseapp.com",
+  projectId: "onlile-job-portal-941fb",
+  storageBucket: "onlile-job-portal-941fb.appspot.com",
+  messagingSenderId: "342802015241",
+  appId: "1:342802015241:web:aaca87807d1c9abe5f84d8"
 };
 
 // Initialize Firebase
