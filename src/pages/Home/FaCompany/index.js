@@ -17,7 +17,8 @@ function FaCompany(){
             </h1>
           </div>
       </div>
-      <div><SliderBar/></div>
+      
+      <SliderBar/>
     </div>
     
     

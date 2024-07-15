@@ -12,18 +12,25 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: green;
+            background-color: rgba(234, 185, 230, 0.908);
             border-radius: 1.5rem;
             cursor: pointer;
+            
 
 
-            .image{
+            .image-holder{
                 display: flex;
-                height: 44;
-                width: 44;
                 justify-content: center;
-                border-radius: 1.5rem;
-                background-color: aquamarine;
+
+                
+
+                .image{
+                    border-radius: 50%;
+                    height: 120px;
+                    width: 120px;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                }
                 
             }
 
@@ -32,8 +39,12 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                gap: 1rem;
+                background-color: white;
+                border-radius: 1.5rem;
+                gap: 1.5rem;
                 padding: auto;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
 
                 .name{
                     font-size: large;
@@ -45,6 +56,9 @@
                     background-color: rgb(202, 234, 234);
                     font-size: medium;
                     border-radius: 0.3rem;
+                    //margin-top: 1.5rem;
+                    margin-bottom: 1.5rem;
+                    
                 }
             }
         }

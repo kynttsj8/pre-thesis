@@ -23,8 +23,8 @@ function SliderBar(){
                 <Slider {...settings}>
                     {data.map((d) =>(
                     <div className={cx('card')}>
-                        <div className={cx('image')}>
-                        <img src={d.img} alt=""/>
+                        <div className={cx('image-holder')}>
+                        <img src={d.img} alt="" className={cx('image')}/>
                         </div>
 
                         <div className={cx('info')}>
@@ -58,14 +58,14 @@ const data = [
     img: "/images/logo_units/logo-rmit.png",
     review: "abc abc abc"
   },
-  // {
-  //   name: "University of Economy Law",
-  //   img: "/images/logo_units/logo-uel.jpg",
-  //   review: "abc xzc xcz"
-  // },
+  {
+    name: "University of Economy Law",
+    img: "/images/logo_units/logo-uel.jpg",
+    review: "abc xzc xcz"
+  },
   {
     name: "University of Science",
-    img: "/images/logo_units/logo-rmit.png",
+    img: "/images/logo_units/logo-us.jpg",
     review: "abc abc abc"
   },
   {
