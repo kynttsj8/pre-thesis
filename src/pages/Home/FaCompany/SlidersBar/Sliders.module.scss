@@ -1,64 +1,55 @@
-.swiper-container{
+
+.swiper-container {
     //background-color: blue;
     width: 1200px;
     margin: auto;
 
-    
-    .card-holder{
-        //background-color: rgb(27, 182, 230);
-        color: rgb(0, 0, 0);
- 
-        .card{
-            display: flex;
+    .card-holder {
+        .card {
             justify-content: center;
+            // height: 100px;
             align-items: center;
             background-color: rgba(234, 185, 230, 0.908);
             border-radius: 1.5rem;
+            border: 1px solid rgb(214, 80, 80);
             cursor: pointer;
-            
+            margin: 10px; 
 
-
-            .image-holder{
+            .image-holder {
                 display: flex;
                 justify-content: center;
 
-                
-
-                .image{
+                .image {
                     border-radius: 50%;
                     height: 120px;
                     width: 120px;
                     margin-top: 1rem;
                     margin-bottom: 1rem;
                 }
-                
             }
 
-            .info{
+            .info {
                 display: flex;
+                height: 150px;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 background-color: white;
                 border-radius: 1.5rem;
-                gap: 1.5rem;
-                padding: auto;
-                padding-left: 1.5rem;
-                padding-right: 1.5rem;
+                gap: 1rem;
+                padding: 1.5rem;
 
-                .name{
+                .name {
+                    margin-top: 1.5px;
                     font-size: large;
                     font-weight: bold;
                 }
 
-                .read-btn{
+                .read-btn {
                     display: inline-block;
                     background-color: rgb(202, 234, 234);
                     font-size: medium;
                     border-radius: 0.3rem;
-                    //margin-top: 1.5rem;
-                    margin-bottom: 1.5rem;
-                    
                 }
             }
         }

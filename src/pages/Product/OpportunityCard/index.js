@@ -1,11 +1,11 @@
 import React from 'react';
 import dayjs from 'dayjs';
 import classNames from 'classnames/bind';
-import styles from './JobCart.module.scss';
+import styles from './OpportunityCard.module.scss';
 
 const cx = classNames.bind(styles);
 
-function JobCard(props) {
+function OpportunityCard(props) {
     const date1 = dayjs(Date.now());
     const diffInDays = date1.diff(props.postedOn, 'day');
 
@@ -13,7 +13,7 @@ function JobCard(props) {
         <div className={cx('container')}>
             <div className={cx('jobcard')}>
                 <div className={cx('inforcard')}>
-                    <h1>{props.title} - {props.company}</h1>
+                    <h1>[{props.institution}] - {props.title}</h1>
                     <p>{props.type} &#x2022; {props.experience} &#x2022; {props.location}</p>
                     <div className={cx('skills-btn')}>
                         {props.skills.map((skill, index) =>
@@ -30,4 +30,4 @@ function JobCard(props) {
     );
 }
 
-export default JobCard;
+export default OpportunityCard;

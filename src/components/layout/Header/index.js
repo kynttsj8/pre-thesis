@@ -55,7 +55,7 @@ function Header() {
     return (
         <div className={cx('container')}>
             <Link to="/" >
-                <img src='/images/logo1bg.png' alt="logo" className={cx('logo')} />
+                <img src='/images/logo-nttk.png' alt="logo" className={cx('logo')} />
             </Link>
 
             <Tippy
@@ -63,11 +63,11 @@ function Header() {
                 visible={searchResult.length > 0}
             >
                 <div className={cx('search')}>
-                    <input placeholder="Clothes and shoes" spellCheck={false} />
+                    <input placeholder="Master degree, RMIT, etc" spellCheck={false} />
                     <button className={cx('clear')}>
                         <FontAwesomeIcon icon={faCircleXmark} />
                     </button>
-                    <FontAwesomeIcon className={cx('loaing')} icon={faSpinner} />
+                    {/* <FontAwesomeIcon className={cx('loaing')} icon={faSpinner} /> */}
                     {/* tippy is tooltip */}
 
                     <button className={cx('search-btn')}>
@@ -86,7 +86,7 @@ function Header() {
                     </li>
                     <li>
                         <Link to="/product" >
-                            Product
+                            Programs
                         </Link>
                     </li>
                     <li>
@@ -106,9 +106,7 @@ function Header() {
                     </li>
                 </ul>
             </div>
-            <Tippy delay={[0, 200]} content="Shopping">
-                <FontAwesomeIcon icon={faShoppingBag} className={cx('shop-btn')} />
-            </Tippy>
+
             <Tippy>
                 <FontAwesomeIcon icon={faBars} className={cx('menu-btn')} />
             </Tippy>

@@ -1,18 +1,25 @@
-.popular-companies-container{
-    font-family: 'Calibri';
-    display: flex;
+.container{
     margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    justify-content: left;
-    padding-left: 8.5rem;
-    padding-right: 2.5rem;
-    background-color: white;
+    background-color: rgb(250, 223, 223);
+    padding: 1.5rem;
 
-    .title{
-        color: rgb(239, 20, 20);
-    }
-
-    .co-title{
-        color: rgb(60, 28, 28);
+    .popular-companies-container{
+        font-family: 'Calibri';
+        display: flex;
+        // margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+        justify-content: left;
+        // padding-top: 1rem;
+        padding-left: 9rem;
+        // padding-right: 2.5rem;
+        // background-color: white;
+    
+        .title{
+            color: rgb(239, 20, 20);
+        }
+    
+        .co-title{
+            color: rgb(60, 28, 28);
+        }
     }
 }

@@ -22,7 +22,7 @@ function Contact() {
                         <FontAwesomeIcon icon={faLocationDot} className={cx('icon')}/>
                         <div className={cx('text')}>
                             <h3>Address</h3>
-                            <p>International University,<br />HCM
+                            <p>International University,<br /> VNU HCM
                                 City,<br />VietNamese</p>
                         </div>
                     </div>
@@ -30,14 +30,14 @@ function Contact() {
                         <FontAwesomeIcon icon={faEnvelope} className={cx('icon')} />
                         <div className={cx('text')}>
                             <h3>Email</h3>
-                            <p>ITITIU20273@student.hcmiu.edu.vn</p>
+                            <p>ITITIU20240@student.hcmiu.edu.vn</p>
                         </div>
                     </div>
                     <div className={cx('phone')}>
                         <FontAwesomeIcon icon={faPhone} className={cx('icon')} />
                         <div className={cx('text')}>
                             <h3>Phone</h3>
-                            <p>03-278-767-92</p>
+                            <p>090 971 8665</p>
                         </div>
                     </div>
                 </div>
@@ -50,11 +50,11 @@ function Contact() {
                         </div>
                         <div className={cx('inputBox')}>
                             <label htmlFor="email">Email</label>
-                            <input type="email" id="email" name="email" required placeholder="VD: Abc123@gmail.com..." />
+                            <input type="email" id="email" name="email" required placeholder="VD: Xyz123@gmail.com..." />
                         </div>
                         <div className={cx('inputBox')}>
                             <label htmlFor="message">Message</label>
-                            <textarea id="message" name="message" required placeholder="Type your message..."></textarea>
+                            <textarea id="message" name="message" required placeholder="This is a greate website..."></textarea>
                         </div>
                         <div className={cx('btn-send')}>
                             <input type="submit" value="Send" />

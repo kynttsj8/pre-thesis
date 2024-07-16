@@ -6,10 +6,10 @@ const cx = classNames.bind(styles);
 
 function SearchBar(props) {
     const [jobCriteria, setJobCriteria] = useState({
-        title: "",
         location: "",
         experience: "",
-        type: ""
+        type: "",
+        institution: ""
     });
 
     const handleChange = (e) => {
@@ -25,19 +25,19 @@ function SearchBar(props) {
 
     return (
         <div className={cx('container')}>
-            <select onChange={handleChange} name="title" value={jobCriteria.title} className={cx('searchBar-btn')}>
-                <option value="" disabled hidden>Job Roles</option>
-                <option value="IOS Developer">IOS Developer</option>
-                <option value="Frontend Developer">Frontend Developer</option>
-                <option value="Backend Developer">Backend Developer</option>
-                <option value="Android Developer">Android Developer</option>
-                <option value="Developer Advocate">Developer Advocate</option>
+            <select onChange={handleChange} name="institution" value={jobCriteria.institution} className={cx('searchBar-btn')}>
+                <option value="" disabled hidden>Institution</option>
+                <option value="IU - VNU">IU - VNU</option>
+                <option value="RMIT">RMIT</option>
+                <option value="UEL - University of Economics Law">UEL - University of Economics Law</option>
+                <option value="UIT - University of Information Technology">UIT - University of Information Technology</option>
+                <option value="FTU - Foreign Trade University">FTU - Foreign Trade University</option>
             </select>
             <select onChange={handleChange} name="type" value={jobCriteria.type} className={cx('searchBar-btn')}>
-                <option value="" disabled hidden>Job Type</option>
+                <option value="" disabled hidden>Type</option>
                 <option value="Full Time">Full Time</option>
                 <option value="Part Time">Part Time</option>
-                <option value="Contract">Contract</option>
+                <option value="Internship">Internship</option>
             </select>
             <select onChange={handleChange} name="location" value={jobCriteria.location} className={cx('searchBar-btn')}>
                 <option value="" disabled hidden>Location</option>
@@ -47,10 +47,10 @@ function SearchBar(props) {
             </select>
             <select onChange={handleChange} name="experience" value={jobCriteria.experience} className={cx('searchBar-btn')}>
                 <option value="" disabled hidden>Experience</option>
-                <option value="Fresher">Fresher</option>
-                <option value="Junior Level">Junior Level</option>
-                <option value="Mid Level">Mid Level</option>
-                <option value="Senior Level">Senior Level</option>
+                <option value="Intern">Intern</option>
+                <option value="Master degrees">Master degrees</option>
+                <option value="Exchange programs">Exchange programs</option>
+                {/* <option value="Senior Level">Senior Level</option> */}
             </select>
             <button onClick={search} className={cx('search-btn')}>Search</button>
         </div>
