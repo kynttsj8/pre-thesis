@@ -13,7 +13,7 @@ To get started with the project, follow these steps:
 3. Start the development server: `npm start`
 4. Open your browser and navigate to `http://localhost:3000`
 
-##** There are some other libraries you might need to install to start this project:
+## There are some other libraries you might need to install to start this project:
 # React slick
 1. Installation: `npm install react-slick --save`
 2. Including CSS: `npm install slick-carousel --save`
