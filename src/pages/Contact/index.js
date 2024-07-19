@@ -23,7 +23,7 @@ function Contact() {
                         <div className={cx('text')}>
                             <h3>Address</h3>
                             <p>International University,<br /> VNU HCM
-                                City,<br />VietNamese</p>
+                                City,<br />VietNam</p>
                         </div>
                     </div>
                     <div className={cx('email')}>

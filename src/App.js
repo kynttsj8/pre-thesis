@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Product from './pages/Product';
@@ -11,7 +12,7 @@ import Signup from './pages/Account/Signup';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header/>
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -20,8 +21,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/account" element={<Account />} />
           <Route path="/signup" element={<Signup />} />
-        </Routes>'
-        {/* <Footer/> */}
+        </Routes>
+        <Footer/>
       </div>
     </div>
   );

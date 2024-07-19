@@ -55,7 +55,7 @@ function Header() {
     return (
         <div className={cx('container')}>
             <Link to="/" >
-                <img src='/images/logo-nttk.png' alt="logo" className={cx('logo')} />
+                <img src='/images/logo-web.png' alt="logo" className={cx('logo')} />
             </Link>
 
             <Tippy
